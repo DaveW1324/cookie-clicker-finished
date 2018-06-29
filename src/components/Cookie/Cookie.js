@@ -29,6 +29,7 @@ class Cookie extends Component {
         <img src={ cookieImg } onClick={ () => this.updateCount() }/>
         <h2>Score: { this.state.count }</h2>
         <button onClick={ () => this.resetCount() }>Reset</button>
+        { this.state.count >= 20 ? <h2 className='warning'>Stop, you have a problem!</h2> : '' }
       </div>
     );
   }

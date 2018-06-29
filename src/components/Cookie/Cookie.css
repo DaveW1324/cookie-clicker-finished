@@ -17,3 +17,18 @@ button {
 button:hover {
   background: #EEE;
 }
+.warning {
+  font-size: 2.25em;
+  margin-top: 35px;
+  color: #FFF;
+  animation: blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: red;    }
+  15%{    color: red; }
+  30%{    color: red;  }
+  45%{   color: red;    }
+  60%{   color: #FFF;    }
+  75%{   color: #FFF;    }
+  90%{   color: #FFF;    }
+}

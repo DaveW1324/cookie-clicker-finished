@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './AccountInfo.css';
 
 class AccountInfo extends Component {
   constructor() {
