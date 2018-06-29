@@ -25,7 +25,7 @@ class AccountInfo extends Component {
     return (
       <div className='account-info'>
         <h2>
-          { this.state.displayName ? 'Welcome, ' + this.state.displayName : 'Input a name' }
+          { this.state.displayName ? 'Welcome, ' + this.state.displayName : 'Input your name' }
         </h2>
         <input onChange={ (e) => this.handleFirstName(e.target.value) }/>
         <input onChange={ (e) => this.handleLastName(e.target.value) }/>

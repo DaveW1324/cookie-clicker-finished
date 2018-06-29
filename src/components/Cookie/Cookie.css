@@ -5,3 +5,15 @@ img {
 img:hover {
   cursor: pointer;
 }
+.cookie > * {
+  margin-bottom: 15px;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  font-size: 1.25em;
+}
+button:hover {
+  background: #EEE;
+}
